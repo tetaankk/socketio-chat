@@ -1,0 +1,21 @@
+#root {
+  width: 600px;
+  max-height: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 10px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: gray;
+  height: 100%;
+  overflow: scroll;
+}
